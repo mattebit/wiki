@@ -1,0 +1,3023 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Fenice Steering System - Eagle TRT</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fenice-steering-system" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Eagle TRT" class="md-header__button md-logo" aria-label="Eagle TRT" data-md-component="logo">
+      
+  <img src="../../static/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Eagle TRT
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fenice Steering System
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Eagle TRT" class="md-nav__button md-logo" aria-label="Eagle TRT" data-md-component="logo">
+      
+  <img src="../../static/logo.png" alt="logo">
+
+    </a>
+    Eagle TRT
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        E-Agle TRT Wiki
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Common
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Common" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Common
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../common/about/writing-docs/" class="md-nav__link">
+        Writing Documentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          General Documentation Files
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="General Documentation Files" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          General Documentation Files
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../common/shared/can-config/" class="md-nav__link">
+        CAN-bus Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../common/shared/can-debugging/" class="md-nav__link">
+        CAN-bus Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../common/shared/openocd-errors/" class="md-nav__link">
+        OpenOCD Troubleshooting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          [DMT] Data Analysis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Data Analysis" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Data Analysis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Estimation Functions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Estimation Functions" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Estimation Functions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-analysis-DMT/Estimation%20Functions/Home-Estimation/" class="md-nav__link">
+        Estimation Functions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Experimental Measurements for Validation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Experimental Measurements for Validation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Experimental Measurements for Validation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-analysis-DMT/Experimental%20Measurement/ExperimentalMeasurement/" class="md-nav__link">
+        Experimental Measurement
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Tire Fitting and Validation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tire Fitting and Validation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Tire Fitting and Validation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-analysis-DMT/Tire%20Fitting%20and%20Validation/Home_Validation/" class="md-nav__link">
+        Tyre Fitting & Model Validation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          Usage
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Usage" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Usage
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data-analysis-DMT/Repo%20Usage/Home/" class="md-nav__link">
+        Data Analysis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          [DMT] Anti Roll Bar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Anti Roll Bar" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Anti Roll Bar
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-arb-DMT/Home/" class="md-nav__link">
+        Fenice Anti Roll Bar
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          High-Voltage BMS
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="High-Voltage BMS" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          High-Voltage BMS
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/" class="md-nav__link">
+        High-Voltage Battery Management System
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Mainboard
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Mainboard" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Mainboard
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/" class="md-nav__link">
+        Mainboard
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/io/" class="md-nav__link">
+        I/O
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2_3" type="checkbox" id="__nav_5_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_2_3">
+          Subsystems
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Subsystems" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Subsystems
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/bal/" class="md-nav__link">
+        Cell Balancing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/bms_cli/" class="md-nav__link">
+        Command Line Interface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/bms_fsm/" class="md-nav__link">
+        Main State Machine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/config/" class="md-nav__link">
+        Config
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/current/" class="md-nav__link">
+        Current
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/feedback/" class="md-nav__link">
+        Feedback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/mainboard/subsystems/timebase/" class="md-nav__link">
+        Timebase
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Bootloader
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bootloader" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Bootloader
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-hv-sw/bootloader/openblt/" class="md-nav__link">
+        OpenBlt
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Low-Voltage BMS
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Low-Voltage BMS" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Low-Voltage BMS
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/" class="md-nav__link">
+        Low Voltage Battery Management System
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          Main functions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Main functions" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Main functions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/Command%20Line%20Interface/" class="md-nav__link">
+        Command Line Interface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/Cooling/" class="md-nav__link">
+        Cooling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/Errors/" class="md-nav__link">
+        Errors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/Feedbacks%20signals/" class="md-nav__link">
+        Feedbacks signals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/IOC%20file%20and%20pinout/" class="md-nav__link">
+        IOC File and Pinout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/State%20machine/" class="md-nav__link">
+        State Machine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-bms-lv/Main%20functions/Timing%20and%20Can%20messages/" class="md-nav__link">
+        Timing and CAN Messages
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          [DMT] Dampers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Dampers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Dampers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-dampers-DMT/Home/" class="md-nav__link">
+        Linear vs non linear model
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          DAS
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DAS" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          DAS
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-das-sw/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-das-sw/bkl/" class="md-nav__link">
+        Brakelight
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-das-sw/buz/" class="md-nav__link">
+        Buzzer
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          DAS (old docs)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="DAS (old docs)" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          DAS (old docs)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-ecu/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-ecu/modules/" class="md-nav__link">
+        Modules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-ecu/fsm/" class="md-nav__link">
+        Finite State Machine
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          [DMT] Steering System
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Steering System" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Steering System
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Fenice Steering System
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          Steering Wheel
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Steering Wheel" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Steering Wheel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-steeringwheel/" class="md-nav__link">
+        Steering Wheel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_2" type="checkbox" id="__nav_11_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11_2">
+          Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_2">
+          <span class="md-nav__icon md-icon"></span>
+          Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-steeringwheel/development/qt/" class="md-nav__link">
+        Building Qt for the Raspberry Pi
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_3" type="checkbox" id="__nav_11_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11_3">
+          Interface
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Interface" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_3">
+          <span class="md-nav__icon md-icon"></span>
+          Interface
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-steeringwheel/interface/tabs/" class="md-nav__link">
+        Concept of Tabs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12">
+          [DMT] Suspensions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Suspensions" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Suspensions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-suspension-DMT/Home/" class="md-nav__link">
+        Fenice Suspensions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_13">
+          ECU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="ECU" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          ECU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-traction-control-sw/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-traction-control-sw/rpi-setup/" class="md-nav__link">
+        RPi Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-traction-control-sw/compiling/" class="md-nav__link">
+        Compiling & Executing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14">
+          [DMT] Vehicle Model
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Vehicle Model" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Vehicle Model
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14_1" type="checkbox" id="__nav_14_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14_1">
+          Repo Usage
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Repo Usage" data-md-level="2">
+        <label class="md-nav__title" for="__nav_14_1">
+          <span class="md-nav__icon md-icon"></span>
+          Repo Usage
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-vehicle-model-DMT/Repo%20Usage/Home/" class="md-nav__link">
+        Repo Usage
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14_2" type="checkbox" id="__nav_14_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14_2">
+          Theory (model + controls)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Theory (model + controls)" data-md-level="2">
+        <label class="md-nav__title" for="__nav_14_2">
+          <span class="md-nav__icon md-icon"></span>
+          Theory (model + controls)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-vehicle-model-DMT/Theory/Home_Theory/" class="md-nav__link">
+        Vehicle Model+Control Theory
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fenice-vehicle-model-DMT/Vehicle_Design_Choices/" class="md-nav__link">
+        Vehicle Design Choices
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15">
+          Handcart hw
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Handcart hw" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          Handcart hw
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../handcart-hw/handcart/" class="md-nav__link">
+        Handcart / Charger
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16">
+          Handcart Documentation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Handcart Documentation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_16">
+          <span class="md-nav__icon md-icon"></span>
+          Handcart Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../handcart-sw/main/" class="md-nav__link">
+        Handcart Documentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_17" type="checkbox" id="__nav_17" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_17">
+          Hw fenice ecu
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hw fenice ecu" data-md-level="1">
+        <label class="md-nav__title" for="__nav_17">
+          <span class="md-nav__icon md-icon"></span>
+          Hw fenice ecu
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hw-fenice-ecu/DAS_ECU/" class="md-nav__link">
+        ECU hardware
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_18" type="checkbox" id="__nav_18" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_18">
+          Hw fenice evo ecu
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hw fenice evo ecu" data-md-level="1">
+        <label class="md-nav__title" for="__nav_18">
+          <span class="md-nav__icon md-icon"></span>
+          Hw fenice evo ecu
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hw-fenice-evo-ecu/DAS_ECU/" class="md-nav__link">
+        DAS+ECU
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hw-fenice-evo-ecu/ECU%20Documentation/" class="md-nav__link">
+        ECU Documentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_19" type="checkbox" id="__nav_19" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_19">
+          [DMT] Lap Time Simulator
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Lap Time Simulator" data-md-level="1">
+        <label class="md-nav__title" for="__nav_19">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Lap Time Simulator
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lap-time-simulator-DMT/Home/" class="md-nav__link">
+        Lap Time Simulator
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_20" type="checkbox" id="__nav_20" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_20">
+          Lib communication
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lib communication" data-md-level="1">
+        <label class="md-nav__title" for="__nav_20">
+          <span class="md-nav__icon md-icon"></span>
+          Lib communication
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lib-communication/connection/" class="md-nav__link">
+        Implement New Connection Type
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lib-communication/mqtt_connection/" class="md-nav__link">
+        MOSQUITTO SETUP
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_21" type="checkbox" id="__nav_21" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_21">
+          rasp shieldV2 config
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="rasp shieldV2 config" data-md-level="1">
+        <label class="md-nav__title" for="__nav_21">
+          <span class="md-nav__icon md-icon"></span>
+          rasp shieldV2 config
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rasp-shieldV2-config/" class="md-nav__link">
+        Documentation!
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_22" type="checkbox" id="__nav_22" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_22">
+          Rtl 433
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Rtl 433" data-md-level="1">
+        <label class="md-nav__title" for="__nav_22">
+          <span class="md-nav__icon md-icon"></span>
+          Rtl 433
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/ANALYZE/" class="md-nav__link">
+        Capture and analyze devices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/BUILDING/" class="md-nav__link">
+        Building rtl_433
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/CONTRIBUTING/" class="md-nav__link">
+        Contributing guidelines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/DATA_FORMAT/" class="md-nav__link">
+        JSON Data fields
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/HARDWARE/" class="md-nav__link">
+        Hardware tested with rtl_433
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/INTEGRATION/" class="md-nav__link">
+        Integration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/IQ_FORMATS/" class="md-nav__link">
+        Introduction to I/Q formats
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/LINKS/" class="md-nav__link">
+        Links to tools and related projects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/OPERATION/" class="md-nav__link">
+        Basic rtl_433 operation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/PRIMER/" class="md-nav__link">
+        Primer on SDR concepts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../rtl_433/STARTING/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_23" type="checkbox" id="__nav_23" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_23">
+          [DMT] Setup
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="[DMT] Setup" data-md-level="1">
+        <label class="md-nav__title" for="__nav_23">
+          <span class="md-nav__icon md-icon"></span>
+          [DMT] Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup-measurements-DMT/Home/" class="md-nav__link">
+        PROCEDURA SET-UP
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24" type="checkbox" id="__nav_24" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_24">
+          Telemetry
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Telemetry" data-md-level="1">
+        <label class="md-nav__title" for="__nav_24">
+          <span class="md-nav__icon md-icon"></span>
+          Telemetry
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/" class="md-nav__link">
+        Telemetry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24_2" type="checkbox" id="__nav_24_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_24_2">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Overview" data-md-level="2">
+        <label class="md-nav__title" for="__nav_24_2">
+          <span class="md-nav__icon md-icon"></span>
+          Overview
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Overview/features/" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Overview/report/" class="md-nav__link">
+        Report
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24_3" type="checkbox" id="__nav_24_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_24_3">
+          Setup and installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Setup and installation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_24_3">
+          <span class="md-nav__icon md-icon"></span>
+          Setup and installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Setup%20and%20Installation/installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Setup%20and%20Installation/setup/" class="md-nav__link">
+        Telemetry Usage
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24_4" type="checkbox" id="__nav_24_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_24_4">
+          Internal implementations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Internal implementations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_24_4">
+          <span class="md-nav__icon md-icon"></span>
+          Internal implementations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Internal%20implementations/connection/" class="md-nav__link">
+        Implement New Connection Type
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Internal%20implementations/json_loading/" class="md-nav__link">
+        Json Loading
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry/Internal%20implementations/file_transmission/" class="md-nav__link">
+        File transmission
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_25" type="checkbox" id="__nav_25" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_25">
+          JSON Loader
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="JSON Loader" data-md-level="1">
+        <label class="md-nav__title" for="__nav_25">
+          <span class="md-nav__icon md-icon"></span>
+          JSON Loader
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../telemetry-json-loader/" class="md-nav__link">
+        JSON Loader
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="fenice-steering-system">Fenice Steering System</h1>
+<hr />
+<h1 id="abstract">Abstract</h1>
+<p>The aim of this paper would be on the design of steering system for a formula SAE vehicle. The design would consist of determining steering geometry optimizing the design to have the best efficiency.</p>
+<p>Obtained all the parameters is possible to evaluate the effort required by the pilot to steer, given the geometry of the steering system.</p>
+<p>The steering box adopted is of the type pinion-rack, which results more precise and direct compared to other systems. In this regard is dimensioned of these two elements for the construction of the steering box.</p>
+<p>For the analysis is used Wolfram Mathematica for finding all the parameters, while Maple is utilized for the dynamic analysis and so how the forces act on the steering system.</p>
+<hr />
+<h1 id="introduction">Introduction</h1>
+<p>The steering system needs to be such that the car can cover all turns on the track and also give accurate steering feel to the driver. The steering effort required by the driver should not be too much that it makes it uncomfortable and at the same time maintains enough steering feel.</p>
+<p>As soon as the front wheels steer, the characteristics of the steering system determine if them remain parallel to each other or the internal wheel steers less or more than the external one.</p>
+<p>This steering system has been projected using the Ackermann objective function. In the figure below are represented the three systems shortly cited before.</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-03.jpg?height=690&amp;width=1514&amp;top_left_y=1656&amp;top_left_x=274" />
+</center></p>
+<p>The typical steering system, in a road or race car, has tie-rod linkages and steering arms that form an approximate parallelogram, which skews to one side as the wheels turn. If the steering arms are parallel, then both wheels are steered to the same angle. If the steering arms are angled, this is known as Ackerman geometry. The inside wheel is steered to a greater angle then the outside wheel, allowing the inside wheel to steer a tighter radius. The steering arm angles as drawn show <span class="arithmatex">\(100 \%\)</span> Ackerman.</p>
+<p>Different designs may use more or less percentage pro-Ackerman, anti-Ackerman, or Ackerman may be adjustable. Full Ackerman geometry requires steering angles, inner wheel and outer wheel. The angles are a function of turn centre radius, wheel base and track, but this fact is discussed in the second part.</p>
+<p>Ackermann geometry is commonly adopted in every application that has low lateral acceleration. Normally for vehicles that race in Formula SAE competitions, tracks used for ski-pad and autocross have features for which velocity in curve is so low, because its radius is so little. For this reasons Ackerman geometry has been chosen for Fenice.</p>
+<p>In Formula 1 cars are reached strong lateral acceleration, the situation is totally different: in these conditions wheels are characterised by significative slip angles. Moreover the load applied on the external wheel is pretty higher compared to the load on internal one.</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-04.jpg?height=982&amp;width=883&amp;top_left_y=1031&amp;top_left_x=218" />
+</center></p>
+<p>In the figure on the left side is clear that with low loads the vehicle needs slip angles lower to reach the peak of the maximum lateral load resistible for the wheels.</p>
+<p>With Ackermann geometry the internal wheel is forced to assume an higher slip angle to reach the maximum lateral force. This means a drag of the internal wheel, determining a growth of the temperature and a slowdown of the vehicle. Tyre drag is a force in the opposite direction of vehicle movement analogous to aerodynamic drag but created due to the tire. Higher the slip angle at which the car operates more the drag produced by the tire. This tire drag has a huge effect on cornering of a vehicle.</p>
+<p>Consequently for race cars is normally used a parallel steering system or even an antiAckerman geometry. </p>
+<hr />
+<h1 id="static-analysis">Static Analysis</h1>
+<h2 id="definition-of-the-objective-function">Definition of the objective function</h2>
+<p>Keeping in mind that the goal is that of creating a steering system which describes, as faithfully as possible the Ackermann's steer, the scheme shown on image number 3 allows to relate the geometrical parameters for the definition of the loss function, which is the one that describes a <span class="arithmatex">\(100 \%\)</span> Ackermann's steer. Image number 3 takes into consideration a steering system which is symmetrical to the longitudinal line of the car; moreover the deemed half is schematized as a quadrilateral: as will be seen later, this scheme will be brought back to one which presents a steering box with rack-pinion rather than a hinge.</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-05.jpg?height=934&amp;width=1122&amp;top_left_y=938&amp;top_left_x=478" />
+</center></p>
+<ul>
+<li>
+<p>Parameter " <span class="arithmatex">\(w\)</span> " indicates the "wheelbase", which, in the displayed case, is equivalent to <span class="arithmatex">\(1540 \mathrm{~mm}\)</span>;</p>
+</li>
+<li>
+<p>Parameter " <span class="arithmatex">\(\mathrm{t}\)</span> " shows the "track", which is the carriageway, which, is the shown case, is equivalent to 1270mm;</p>
+</li>
+<li>
+<p><span class="arithmatex">\(\mathrm{R}\)</span> is the radius of the curve carried out by the car;</p>
+</li>
+<li>
+<p><span class="arithmatex">\(\delta\)</span> angle is the steering angle carried out in the case in which the steering wheel is directly connected to the central hinge, operating therefore directly on the steering arms (in this case too, it will later on displayed how to take in count the gear ratio brought by the rack);</p>
+</li>
+<li>
+<p><span class="arithmatex">\(\delta s\)</span> is the angle which describes the internal wheel compared to the longitudinal direction;</p>
+</li>
+<li>
+<p>CIR stands for "center of instant rotation", as previously mentioned, if the steering is similar to the Ackermann's one, then all four wheels will rotate (on the plan ?) following a common rotation centre. At this point we can describe: </p>
+</li>
+</ul>
+<div class="arithmatex">\[
+\begin{gathered}
+\tan \delta=\frac{w}{R} \\
+\tan \delta_{s}=\frac{w}{R-\frac{t}{2}}=\frac{w / R}{1-\frac{t}{2 R}}=\frac{\tan \delta}{1-\frac{t}{2 R}} \\
+\delta_{s}=\tan ^{-1}\left(\frac{\tan \delta}{1-\frac{t}{2 w} \tan \delta}\right)
+\end{gathered}
+\]</div>
+<p>3.3 Allows to calculate the angle that the wheel must have based on the steering angle, in order to respect the Ackermann's steer. Such angle is, therefore, the loss function, which one tries to obtain by properly selecting the steering arms length. It is so possible to describe the <span class="arithmatex">\(\mathrm{yd}(\delta)\)</span> function as:</p>
+<div class="arithmatex">\[
+y d(\delta)=\tan ^{-1}\left(\frac{\tan \delta}{1-\frac{t}{2 w} \tan \delta}\right)
+\]</div>
+<h2 id="definition-of-geometry">Definition of geometry</h2>
+<p>In the following considerations it'll be only displayed the movement of the anterior right wheel, since what happens on the left wheel is symmetrical. The steering system is, therefore, schematized as a quadrilateral with the only difference that the central hinge in image 3 is substituted with a prismatic joint, which only allows the traversing along the transversal direction.</p>
+<p>Taking into account that a steering box with a rack is being used, the general steering geometry is represented on image 5:</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-06.jpg?height=662&amp;width=968&amp;top_left_y=1768&amp;top_left_x=544" />
+</center></p>
+<p>It is important to highlight that the segment CD doesn't represent a physical arm which will be part of the steering system, but an ideal line which connects the attachment point of the arm <span class="arithmatex">\(B C\)</span> to the hub bracket with the real rotation center of the wheel (point D which remains fixed during the wheel movement); it basically has the simple function of "graphically" complete the quadrilateral with which it is possible to describe any steering system. Instead <span class="arithmatex">\(s\)</span> is the distance from the centre of the rack and the origin of the main reference frame. It is collocated where the pinion is attached to the steering box.</p>
+<p>The optimization parameters will be: <span class="arithmatex">\(\mathrm{BC}\)</span> length (which we will call <span class="arithmatex">\(\mathrm{L} 2\)</span> ), <span class="arithmatex">\(\mathrm{CD}\)</span> length (which we will call <span class="arithmatex">\(\mathrm{L} 3\)</span> ) and <span class="arithmatex">\(\alpha\)</span> angle, which is the angle between the wheel longitudinal direction and the CD segment: such angle stays constant during the wheel rotation.</p>
+<p>To define the geometry of this mechanism in an analogous way as the one shown on image 5 , the following procedure was used, written in Mathematica:</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-07.jpg?height=785&amp;width=1418&amp;top_left_y=870&amp;top_left_x=319" />
+</center></p>
+<p>All the names given to the parameters match with the ones written in the image 5 ; a little clarification must be given concerning " <span class="arithmatex">\(c\)</span> " parameter and " <span class="arithmatex">\(\beta\)</span> " angle. The figure below shows a triangle which was obtained inside the quadrilateral. By applying the cosine theorem to such triangle it is possible to find:</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-07.jpg?height=237&amp;width=622&amp;top_left_y=1943&amp;top_left_x=203" />
+</center></p>
+<div class="arithmatex">\[
+\cos \beta=\frac{L_{2}^{2}+L_{5}^{2}-L_{3}^{2}}{2 L_{2} L_{5}}
+\]</div>
+<p>From here it is possible to obtain angle <span class="arithmatex">\(\beta\)</span> as shown in the procedure.</p>
+<p>Finally, the parameter "modo" allows to select how to assemble the mechanism: in one case BC and CD sides are going to be over the artificial side <span class="arithmatex">\(L 5\)</span>, while the opposite happens in the second case. </p>
+<hr />
+<h1 id="optimization-procedure">Optimization procedure</h1>
+<p>At this point it is possible to proceed with the actual optimization in order to find the parameters mentioned above. The following procedure was used:</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-08.jpg?height=1205&amp;width=1661&amp;top_left_y=704&amp;top_left_x=199" />
+</center></p>
+<p>The first thing to clarify is that the "Steer" function allows to transform the steering wheel rotation (expressed by the <span class="arithmatex">\(p 1, \gamma 2=-115,115\)</span> angles) in the rack " <span class="arithmatex">\(q\)</span> " linear shift. In partcular calculating the circular crown of the pinion equal to <span class="arithmatex">\(\frac{2*\pi*r}{360}\)</span>, where r is radius of the pinion = 17 mm. In order to do so, a c-factor was set (which corresponds to the millimeters of displacement of tha rack for every full rotation of the pinion) which is equal to: cfactor <span class="arithmatex">\(=108 \mathrm{~mm}\)</span>. It was decided to limit the steering wheel rotation range between <span class="arithmatex">\(-115^{\circ}\)</span> and <span class="arithmatex">\(+115^{\circ}\)</span> since the pilot, which sits inside the narrow cockpit of the single-seater car, would have many difficulties in turning the steering wheel at higher angles.</p>
+<p>To connect the <span class="arithmatex">\(\delta\)</span> steering angle (which is the one that you would have in the case in which the steering wheel was directly connected to the central hung in image 3), initially defined as the shift of the <span class="arithmatex">\(q\)</span> rack, it is possible to consider the scheme shown in the image 7 : </p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-09.jpg?height=551&amp;width=851&amp;top_left_y=358&amp;top_left_x=617" />
+</center></p>
+<p>The length L1 corresponds to the size of the rack when the wheels are straight; in this case it was chosen L1 <span class="arithmatex">\(=225 \mathrm{~mm}\)</span>.</p>
+<p>It is therefore possible to notice that the <span class="arithmatex">\(\delta\)</span> angle can be calculated as:</p>
+<div class="arithmatex">\[
+\delta=\tan ^{-1} \frac{q}{s}
+\]</div>
+<p>It is necessary to specify that the optimization was carried out on a set of "s" values: the values taken into consideration are: <span class="arithmatex">\(30,40,50,60,70,80 \mathrm{~mm}\)</span>. As it will be shown, in the final version <span class="arithmatex">\(\mathrm{s}=70 \mathrm{~mm}\)</span>.</p>
+<p>The two parameters "offsetx" and "offsety" allow to indicate the effective point around which the tyre turns, keeping in count the influence the caster and kingpin angles. In this case we have: offsetx <span class="arithmatex">\(=-77.67 \mathrm{~mm}\)</span>, offsety <span class="arithmatex">\(=16.78 \mathrm{~m}\)</span>. The tyre center of rotation is, therefore, moved to the center and towards the front of the car compared to the "physical" center of the wheel.</p>
+<p>It will be now described the goal of the various functions which are part of the optimization procedure:</p>
+<ul>
+<li>
+<p>the " <span class="arithmatex">\(y\)</span> " function calculates the first output of the "Quadrilateral" procedure, that is the <span class="arithmatex">\(\theta 3\)</span> angle, to which the <span class="arithmatex">\(90^{\circ}+\alpha\)</span> is subtracted. The coordinate X of the point A is fixed corresponding to the origin, while the y is a set of values that is going to be optimized.
+In agreement with Image 5 , it is possible to affirm that the " <span class="arithmatex">\(\mathrm{y}\)</span> " function calculates the effective angle on which the right tyre turns (so it represents the output of the steering system);</p>
+</li>
+<li>
+<p>the "yd" function, as previously said, is the desired function, namely the ideal output that the steering system should have if it perfectly respected the Ackermann's geometry;</p>
+</li>
+<li>
+<p>the "f" function calculates a series of values which describe the linear moving of the rack between the maximum value (q1) and the minimum one (q2). After that it calculates the mistake which one has for each of these values, which is the absolute value of the subtraction between the real steering angle (given by the " <span class="arithmatex">\(\mathrm{y}\)</span> " function) and the idea steering angle (given by the " <span class="arithmatex">\(\mathrm{yd}\)</span> " function). Worth mentioning that, thanks to the absolute value, during the optimization the singular configurations will be automatically excluded, which, since they're complex numbers, give a major contribution to the module;</p>
+</li>
+<li>
+<p>the "yforce" function calculates the cosine of the subtraction between the <span class="arithmatex">\(\theta 3\)</span> angle and the <span class="arithmatex">\(\theta 2\)</span> angle, obtaining, this way the cosine of the angle between <span class="arithmatex">\(\mathrm{BC}\)</span> and <span class="arithmatex">\(\mathrm{CD}\)</span> arms;</p>
+</li>
+<li>
+<p>the "fforce" function, as the "f" function calculates a series of values included between <span class="arithmatex">\(q 1\)</span> and <span class="arithmatex">\(q 2\)</span>, after that it determines the maximum of the "yforce" function module, assessed in each of these points; </p>
+</li>
+<li>finally, "NMinimize" allows to carry out the real optimization, using as optimization parameters the one previously listed (which are highlighted in blue). By minimizing both the " <span class="arithmatex">\(f\)</span> " and "fforce" function we have two effects: on one side you minimize the mistake calculated in the first function, on the other one you minimize the the cosine of the angle between the two <span class="arithmatex">\(B C\)</span> and <span class="arithmatex">\(C D\)</span> arms; this means that, following the optimization, such angle will tend to be as close as possible to <span class="arithmatex">\(90^{\circ}\)</span> (where the cosine is to the minimum). This was made because, by maintaining such angle close to <span class="arithmatex">\(90^{\circ}\)</span> it is possibile to maximize the transfer of forces between arm and wheel, reducing, then, the necessary effort to steer. It is possible to notice that the "fforce" function gets multiplied for a number: it allows such function to augment or diminish the importance of such function inside the optimization; this is made to avoid reaching a top high mistake in order to minimize the "fforce" function;</li>
+</ul>
+<h2 id="results-analysis">Results analysis</h2>
+<p>The result of the optimization is shown on table:</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">s [mm]</th>
+<th align="center">Error [deg]</th>
+<th align="center">L2 [mm]</th>
+<th align="center">L3 [mm]</th>
+<th align="center">α [deg]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">30</td>
+<td align="center">23.79</td>
+<td align="center">214.4</td>
+<td align="center">136.9</td>
+<td align="center">72.37</td>
+</tr>
+<tr>
+<td align="center">40</td>
+<td align="center">16.89</td>
+<td align="center">224.4</td>
+<td align="center">133.6</td>
+<td align="center">64.53</td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td align="center">3.46</td>
+<td align="center">348.1</td>
+<td align="center">59.3</td>
+<td align="center">-13.33</td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td align="center">2.83</td>
+<td align="center">352.7</td>
+<td align="center">69.3</td>
+<td align="center">-15.55</td>
+</tr>
+<tr>
+<td align="center">70</td>
+<td align="center">2.44</td>
+<td align="center">334.7</td>
+<td align="center">74.4</td>
+<td align="center">0.043</td>
+</tr>
+<tr>
+<td align="center"></center></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>It is possible to notice that for the fist values of " <span class="arithmatex">\(\mathrm{s}\)</span> " the mistakes is very high, therefore such solutions are not achievable. In the end it was decided to use the configuration with <span class="arithmatex">\(\mathrm{s}=70 \mathrm{~mm}\)</span> : it is not the one that allows to have the minimum mistake, but it is the one which best represents the compromise in order to deny the risk of the two arms touching the internal wall of the wheel rim while steering.</p>
+<p>The final result, using the parameters related to <span class="arithmatex">\(s=70 \mathrm{~mm}\)</span>, is shown on Image 8 :</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-10.jpg?height=682&amp;width=1328&amp;top_left_y=1932&amp;top_left_x=364" />
+</center></p>
+<p>This configuration, as shown on Table 1, presents an average mistake of circa <span class="arithmatex">\(2.44^{\circ}\)</span>. Image 9 shows, though, the effective variance between the ideal function and the one carried out by the right wheel of the steering system, for the steering wheel dangles comprehended between <span class="arithmatex">\(-115^{\circ}\)</span> and <span class="arithmatex">\(115^{\circ}\)</span>.</p>
+<p><center></p>
+<p><img alt="" src="https://cdn.mathpix.com/cropped/2022_12_09_b2797d52c5a262412b6fg-11.jpg?height=697&amp;width=1608&amp;top_left_y=545&amp;top_left_x=218" />
+</center></p>
+<p>In the previous graphic a clockwise rotation was taken in consideration as negative, that is when the right wheel results in being internal to the curve.</p>
+<p>It is possible to notice that the mistake grows as we move away from the configuration with straight wheels; however in the range in which we operate the most, the mistake is contained.</p>
+<p>It must be said that, by reducing the influence of the "fforce" function (so by diminishing the multiplier which precedes it) it would have been possible to obtain an even lower mistake. However in this way, point " <span class="arithmatex">\(\mathrm{C}^{\text {" }}\)</span> would have resulted in being way more moved toward right and this wouldn't have been acceptable since such point (in which we have a spherical joint) would have crashed into the brake discs.</p>
+<p>The steering system was built in order to allow the car to cover a curve (quite narrow) with a <span class="arithmatex">\(3 \mathrm{~mm}\)</span> ray, considering that competitions take place on tracks which are characterized by very narrows curves. By using the <span class="arithmatex">\(3.1\)</span> it is possible to calculate the <span class="arithmatex">\(\delta\)</span> angle, which is necessary to accomplish such curve where w is equal to <span class="arithmatex">\(1540 \mathrm{~mm}\)</span> and <span class="arithmatex">\(\mathrm{R}\)</span> equal to <span class="arithmatex">\(3000 \mathrm{~mm}\)</span> (it is to remember that <span class="arithmatex">\(\delta\)</span> angle represents the steering angle as if the steer operated directly in the arms).</p>
+<p>By passing such angle at the entrance of the "yd" function we obtain <span class="arithmatex">\(y d=-32.17^{\circ}\)</span> (it is to remember that the minus sign indicates a clockwise rotation). Ideally, therefore, to obtain a minimal <span class="arithmatex">\(3 \mathrm{~m}\)</span> steering ray it is necessary that the for the wheel too, to turn of such quantity.</p>
+<p>With a <span class="arithmatex">\(108 \mathrm{~mm}\)</span> c-factor as the one used when there's a maximal steer, that is <span class="arithmatex">\(115^{\circ}\)</span>, the rack swifts for <span class="arithmatex">\(34.62\)</span> <span class="arithmatex">\(\mathrm{mm}\)</span>; using <span class="arithmatex">\(4.1\)</span> we obtain <span class="arithmatex">\(\delta=26.32^{\circ}\)</span> to which corresponds; <span class="arithmatex">\(y d=-31.01^{\circ}\)</span>.</p>
+<p>The chosen c-factor allows therefore to get very close to the ideal steering angle which would be necessary to perform a <span class="arithmatex">\(3 \mathrm{~m}\)</span> ray curve; it was decided to not further increase the c-factor to deny the steering wheel being too direct, resulting in it being too difficult to control and ever heavier to maneuver.</p>
+<p>In the end the real maximal rotation angle which describes the <span class="arithmatex">\(i\)</span> thermal wheel compared to the curve is circa <span class="arithmatex">\(-29.66^{\circ}\)</span>. It is possible to calculate that this value makes it possible for the car to cover a curve with a maximal ray of <span class="arithmatex">\(3.256 \mathrm{~m}\)</span>. This value differ a little bit from the one that was chosen as the goal, however it is still acceptable.</p>
+<p>In this table are shown the optimized dimensions of the steering system:</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="center">L1 [mm]</th>
+<th align="center">L2 [mm]</th>
+<th align="center">L3 [mm]</th>
+<th align="center">s [mm]</th>
+<th align="center">α [deg]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">225</td>
+<td align="center">334.7</td>
+<td align="center">74.4</td>
+<td align="center">70</td>
+<td align="center">0.043</td>
+</tr>
+<tr>
+<td align="center"></center></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="revision-history">Revision History</h1>
+<ul>
+<li>V1.0: Initial release (Andrea Colavero)</li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../fenice-ecu/fsm/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Finite State Machine" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Finite State Machine
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../fenice-steeringwheel/" class="md-footer__link md-footer__link--next" aria-label="Next: Steering Wheel" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Steering Wheel
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; E-Agle TRT
+          </div>
+        
+        
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/eagletrt" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/eagletrt" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://hub.docker.com/u/eagletrt" target="_blank" rel="noopener" title="hub.docker.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+        <script src="../../static/js/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      
+        <script src="../../static/js/mermaid.js"></script>
+      
+    
+  </body>
+</html>
